@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		15DC5DB31BA86315003DDA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5DB21BA86315003DDA91 /* main.m */; };
 		15DC5DB61BA86315003DDA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5DB51BA86315003DDA91 /* AppDelegate.m */; };
-		15DC5DB91BA86315003DDA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5DB81BA86315003DDA91 /* ViewController.m */; };
+		15DC5DB91BA86315003DDA91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5DB81BA86315003DDA91 /* RootViewController.m */; };
 		15DC5DBC1BA86315003DDA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DC5DBA1BA86315003DDA91 /* Main.storyboard */; };
 		15DC5DBE1BA86315003DDA91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DC5DBD1BA86315003DDA91 /* Images.xcassets */; };
 		15DC5DC11BA86315003DDA91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DC5DBF1BA86315003DDA91 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		15DC5DB21BA86315003DDA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15DC5DB41BA86315003DDA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15DC5DB51BA86315003DDA91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15DC5DB71BA86315003DDA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15DC5DB81BA86315003DDA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15DC5DB71BA86315003DDA91 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		15DC5DB81BA86315003DDA91 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		15DC5DBB1BA86315003DDA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15DC5DBD1BA86315003DDA91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15DC5DC01BA86315003DDA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				15DC5DB41BA86315003DDA91 /* AppDelegate.h */,
 				15DC5DB51BA86315003DDA91 /* AppDelegate.m */,
-				15DC5DB71BA86315003DDA91 /* ViewController.h */,
-				15DC5DB81BA86315003DDA91 /* ViewController.m */,
+				15DC5DB71BA86315003DDA91 /* RootViewController.h */,
+				15DC5DB81BA86315003DDA91 /* RootViewController.m */,
 				15DC5DBA1BA86315003DDA91 /* Main.storyboard */,
 				15DC5DBD1BA86315003DDA91 /* Images.xcassets */,
 				15DC5DBF1BA86315003DDA91 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15DC5DB91BA86315003DDA91 /* ViewController.m in Sources */,
+				15DC5DB91BA86315003DDA91 /* RootViewController.m in Sources */,
 				15DC5DB61BA86315003DDA91 /* AppDelegate.m in Sources */,
 				15DC5DB31BA86315003DDA91 /* main.m in Sources */,
 			);
@@ -412,6 +412,7 @@
 				15DC5DD21BA86315003DDA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15DC5DD31BA86315003DDA91 /* Build configuration list for PBXNativeTarget "DifferentWaysToPassValueOCTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				15DC5DD51BA86315003DDA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
